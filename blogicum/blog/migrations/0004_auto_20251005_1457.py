@@ -15,16 +15,19 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='category',
             name='created_at',
-            field=models.DateTimeField(default=datetime.datetime(2025, 10, 5, 7, 57, 1, 297151, tzinfo=utc), verbose_name='Добавлено'),
+            field=models.DateTimeField(default=datetime.datetime(
+                2025, 10, 5, 7, 57, 1, 297151, tzinfo=utc), verbose_name='Добавлено'),
         ),
         migrations.AlterField(
             model_name='location',
             name='created_at',
-            field=models.DateTimeField(default=datetime.datetime(2025, 10, 5, 7, 57, 1, 296592, tzinfo=utc), verbose_name='Добавлено'),
+            field=models.DateTimeField(default=datetime.datetime(
+                2025, 10, 5, 7, 57, 1, 296592, tzinfo=utc), verbose_name='Добавлено'),
         ),
         migrations.AlterField(
             model_name='post',
             name='created_at',
-            field=models.DateTimeField(default=datetime.datetime(2025, 10, 5, 7, 57, 1, 298287, tzinfo=utc), verbose_name='Добавлено'),
+            field=models.DateTimeField(default=datetime.datetime(
+                2025, 10, 5, 7, 57, 1, 298287, tzinfo=utc), verbose_name='Добавлено'),
         ),
     ]
